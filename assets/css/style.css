@@ -1,0 +1,39 @@
+body {
+    background-color: #26335D;
+}
+
+.img-cstm{
+    height: 100%;
+    width: 65%;
+}
+
+.icon-size-cstm {
+    font-size: 72px;
+}
+.line-sm-cstm{
+    height: 2px;
+    background-color: #E74040;
+    width: 70px;
+}
+
+.line-lg-cstm{
+    height: 5px;
+    background-color: #E74040;
+    width: 70px;
+}
+
+.mt-custom {
+    margin-top: 350px;
+}
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .img-cstm{
+        width: 100%;
+    }
+}
